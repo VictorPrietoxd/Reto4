@@ -1,0 +1,298 @@
+*{box-sizing: border-box;}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.nav .containLogo{
+    width: 60%;
+    height: 50%;
+}
+
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav .containLogo .logo .pintado{
+    width: 6%;
+    height: 70%;
+    background-color: #316099;
+    border-radius: 200px;
+    position: absolute;
+}
+
+.nav .containLogo .logo .letra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    height: 70%;
+    background-color: white;
+    border: 2px solid #316099;
+    border-radius: 200px;
+    position: absolute;
+    z-index: 2;
+    left: 13px;
+}
+
+.nav .containCategorias{
+    width: 25%;
+    height: 100%;
+  display: flex;
+  align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.containerMain{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.controlMain{
+    height: 100%;
+    width: 60%;
+}
+
+.controlMain h2{
+    color: #356EAD;
+    opacity: 0.8;
+    margin-top: 1.5em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.search{
+    width: 100%;
+    height: 3em;
+    margin-top: 10px;
+    background-color:#F4F4F4;
+    border-radius: 10px;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.iconSearch{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputSearch{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 95%;
+}
+.inputSearch input{
+    width: 98%;
+    height: 100%;
+    border: none;
+    background-color:#F4F4F4;
+}
+
+.fa-search:before {
+    content: "\f002";
+    color:#1F3F68;
+}
+
+.layoutMain{
+    height:60em ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.controlInfoFAnuncio{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.controlInfoFAnuncio p{
+text-align: justify;
+line-height: 1.3;
+}
+
+.containInfoFAnuncio{
+    height: 100%;
+    width: 42%;
+}
+
+.fAnuncio{
+height: 44%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+
+.containInfoFAnuncio h1{
+    color: #1F3F68;
+    margin: 0;
+    margin: 5px 0;
+}
+
+.imgFAnuncio{
+    height: 100%;
+    width: 52%;
+    background-image: url('./../images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.leyendaInfo{
+    height:25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nameLeyendaInfo{
+    font-size: 1.2em;
+    color: #1F3F68;}
+
+.dateLeyendaInfo{
+    margin-top: 10px;
+    color: #1F3F68;
+    opacity: 0.4;
+}
+.controlLeyenda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.controlExtras{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardsArticle{
+    display: flex;
+    justify-content: space-between;
+    height: 53%;
+    width: 100%;
+}
+
+.cardsArticle article{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.infoCardArticle{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.infoCardArticle h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.infoCardArticle p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+.imgCardArticle{
+    height: 40%;
+    width: 100%;
+background-size: cover;
+}
+
+.imgCardArticle .imgCardArticle{
+    height: 100%;
+    width: 100%;
+}
+
+.otherSection .end{
+    text-align: end;
+}
+
+.containerArticle{
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.containerArticle article{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerArticle article .imgAllArticle{
+    height: 100%;
+    width: 30%;
+}
+
+.containerArticle article .imgAllArticle img{
+    height: 100%;
+    width: 100%;
+}
+
+.containerArticle article .infoAllArticle{
+   height: 100%;
+   width: 68%;
+   display: flex;
+   flex-direction: column;
+}
+
+.containerArticle article .infoAllArticle h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    color: #1F3F68;
+ }
+
+ .containerArticle article .infoAllArticle p{
+     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+ }
+
+ .containerArticle article .controlInfoArticle{
+     height: 65%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ .leyendaInfo.allArticle{
+     height: 30%;
+     margin-top: 10px;
+ }
+

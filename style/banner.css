@@ -1,0 +1,100 @@
+.banner{
+    height: 35vh;
+    width: 100vw;
+    background-image: url('./../images/banner.png');
+    background-size: cover;
+}
+
+.banner .vectores{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .vectores .vectorUno{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.banner .vectores .vectorDosA{
+    position: absolute;
+    top: 60%;
+    left: -10px;
+}
+
+.banner .vectores .vectorDosB{
+    position: absolute;
+    top: 90%;
+    left: 17%;
+}
+
+.banner .vectores .vectorDosC{
+    position: absolute;
+    top: -8%;
+    right: 68%;
+}
+
+.banner .vectores .vectorDosD{
+    position: absolute;
+    bottom: 4%;
+    right: 35%;
+}
+
+.banner .vectores .vectorDosE{
+    position: absolute;
+    bottom: 60%;
+    right: 5%;
+}
+
+.banner .vectores .vectorTresA{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+}
+
+.banner .vectores .vectorTresB{
+    position: absolute;
+    bottom: -4%;
+    left: 44%;
+}
+
+.banner .vectores .vectorTresC{
+    position: absolute;
+    top: 20%;
+    left: 56%;
+}
+
+.banner .vectores .vectorTresD{
+    position:absolute;
+    bottom: 15%;
+    left:87%;
+}
+
+.banner .vectores .vectorTresE{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+
+.banner .vectores .vectorTresF{
+    position: absolute;
+    top: 50%;
+    left: 99%;
+}
+
+.banner .containInfoBanner{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align:center;
+}
